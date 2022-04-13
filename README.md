@@ -32,7 +32,8 @@ SELECT * FROM MOVIES;
 +---------+----------------------+-----------------+-----------------+--------------+--------------+
 5 rows in set (0.00 sec)
 
-The specific_query.java File querys the movie details using a SELECT statement with parameter like actor name to select movies based on the actor's name.
+The specific_query.java File querys the movie details using a SELECT statement with 
+parameter like actor name to select movies based on the actor's name.
 
  SELECT name FROM movies WHERE Actor='RDJ';
 +------------+
